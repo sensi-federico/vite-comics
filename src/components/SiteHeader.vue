@@ -52,7 +52,7 @@ export default {
 
 <template>
     <header id="site_header">
-        <div class="container">
+        <div class="my-container">
             <div class="nav">
                 <div class="logo">
                     <img src="/img/dc-logo.png" alt="">
@@ -63,7 +63,7 @@ export default {
             </div>
         </div>
         <div class="jumbotron">
-            <div class="container">
+            <div class="my-container">
                 <h1>--> Content goes here &lt--</h1>
             </div>
         </div>

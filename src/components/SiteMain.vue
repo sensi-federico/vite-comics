@@ -37,11 +37,11 @@ export default {
 
 <template>
     <main id="site_main">
-        <div class="container">
+        <div class="my-container">
             <div class="row row-cols-5">
                 <div class="col d-flex align-items-center" v-for="card in cards">
                     <img :src="'/img/' + card.image" alt="">
-                    <h5>{{ card.text }}</h5>
+                    <p>{{ card.text }}</p>
                 </div>
             </div>
         </div>

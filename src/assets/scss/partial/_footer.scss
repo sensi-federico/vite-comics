@@ -1,8 +1,10 @@
 @use 'variables' as *;
 
 #site_footer {
-    background-color: $footer;
-    padding: 2rem;
+    .call-to-action {
+        background-color: $footer;
+        padding: 2rem;
+    }
 
     h4 {
         color: $primary;
@@ -11,5 +13,25 @@
     .button {
         border: 1px solid $primary;
         padding: .5rem;
+    }
+
+    .contact {
+        background-image: url('/img/footer-bg.jpg');
+        padding: 1rem 0;
+
+        .col {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                color: white;
+                text-transform: uppercase;
+            }
+
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+        }
     }
 }

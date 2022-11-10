@@ -8,13 +8,25 @@
         justify-content: space-between;
         padding: 1rem 0;
 
+        .logo {
+            width: 90px;
+        }
+
         .links {
 
             a {
-                padding: .5rem;
+                margin: 1rem;
                 text-transform: uppercase;
                 text-decoration: none;
                 color: black;
+                font-weight: bold;
+                font-size: small;
+
+                &:hover {
+                    color: $primary;
+                    border-bottom: 6px solid $primary;
+                    padding-bottom: 3.3rem;
+                }
             }
         }
     }
