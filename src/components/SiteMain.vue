@@ -5,24 +5,33 @@ export default {
         return {
             cards: [
                 {
-                    image: 'buy-comics-digital-comics',
+                    image: 'buy-comics-digital-comics.png',
                     text: 'digital comics'
                 },
                 {
-                    image: 'buy-comics-merchandise',
+                    image: 'buy-comics-merchandise.png',
                     text: 'dc merchandise'
                 },
                 {
-                    image: 'buy-comics-subscriptions',
+                    image: 'buy-comics-subscriptions.png',
                     text: 'subscription'
                 },
                 {
-                    image: 'buy-comics-shop-locator',
+                    image: 'buy-comics-shop-locator.png',
                     text: 'comic shop location'
+                },
+                {
+                    image: 'buy-dc-power-visa.svg',
+                    text: 'dc power visa'
                 }
             ]
         }
-    }
+    },
+    methods: {
+        getImagePath: function (imgPath) {
+            return new URL(imgPath, import.meta.url).href;
+        }
+    },
 }
 </script>
 
@@ -30,13 +39,9 @@ export default {
     <main id="site_main">
         <div class="container">
             <div class="row row-cols-5">
-                <div class="col" v-for="card in cards">
-                    <img :src="'../assets/img/' + card.image + '.jpg'" alt="">
+                <div class="col d-flex align-items-center" v-for="card in cards">
+                    <img :src="'/img/' + card.image" alt="">
                     <h5>{{ card.text }}</h5>
-                </div>
-                <div class="col">
-                    <img src="../assets/img/buy-dc-power-visa.svg" alt="">
-                    <h5>dc power visa</h5>
                 </div>
             </div>
         </div>
@@ -44,7 +49,5 @@ export default {
 </template>
 
 <style lang="scss">
-#site_main {
-    background-color: lightblue;
-}
+
 </style>

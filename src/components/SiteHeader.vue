@@ -55,7 +55,7 @@ export default {
         <div class="container">
             <div class="nav">
                 <div class="logo">
-                    <img src="../assets/img/dc-logo.png" alt="">
+                    <img src="/img/dc-logo.png" alt="">
                 </div>
                 <div class="links">
                     <a href="#" v-for="link in links">{{ link.name }}</a>
@@ -64,7 +64,7 @@ export default {
         </div>
         <div class="jumbotron">
             <div class="container">
-                <h1>--> Content goes here &lt-- </h1>
+                <h1>--> Content goes here &lt--</h1>
             </div>
         </div>
     </header>

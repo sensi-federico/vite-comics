@@ -1,11 +1,13 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue';
 import SiteMain from './components/SiteMain.vue';
+import SiteFooter from './components/Sitefooter.vue';
 
 export default {
   components: {
     SiteHeader,
-    SiteMain
+    SiteMain,
+    SiteFooter
   }
 }
 </script>
@@ -16,7 +18,7 @@ export default {
   <!-- /#site-header -->
   <SiteMain />
   <!-- /#site_main -->
-  <footer id="site_footer"></footer>
+  <SiteFooter />
   <!-- /#site-footer -->
 
 </template>

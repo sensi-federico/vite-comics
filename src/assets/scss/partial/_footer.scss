@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+#site_footer {
+    background-color: $footer;
+    padding: 2rem;
+
+    h4 {
+        color: $primary;
+    }
+
+    .button {
+        border: 1px solid $primary;
+        padding: .5rem;
+    }
+}
