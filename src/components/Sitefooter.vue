@@ -122,26 +122,18 @@ export default {
 
                                 <h3>shop</h3>
                                 <a href="#" v-for="item in Shop">{{ item.text }}</a>
-
-
                             </div>
                             <div class="col">
                                 <h3>DC</h3>
                                 <a href="#" v-for="item in DC">{{ item.text }}</a>
-
                             </div>
                             <div class="col">
                                 <h3>Sites</h3>
-
                                 <a href="#" v-for="item in Sites">{{ item.text }}</a>
-
-
                             </div>
                         </div>
                     </div>
-                    <div class="col-7">
-                        <!-- <img src="../assets/img/dc-logo-bg.png" alt=""> -->
-                    </div>
+                    <img class="logo-bg" src="/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
 

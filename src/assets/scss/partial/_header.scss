@@ -25,19 +25,25 @@
                 &:hover {
                     color: $primary;
                     border-bottom: 6px solid $primary;
-                    padding-bottom: 3.3rem;
+                    padding-bottom: 3rem;
                 }
             }
         }
     }
 
     .jumbotron {
-        background-color: $dark;
+        background-image: url('/img/jumbotron.jpg');
+        background-size: cover;
+        height: 80vh;
         color: white;
+        display: flex;
 
         h1 {
-            padding: 2rem 0;
+            text-align: center;
+            align-self: center;
             margin: 0;
+            background-color: $dark;
+            padding: 5rem;
         }
     }
 
