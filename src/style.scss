@@ -1,14 +1,12 @@
+@use './assets/scss/partial/header';
+@use './assets/scss/partial/main';
+@use './assets/scss/partial/variables';
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --primary: #0282F9;
-    --dark: #1C1C1C;
-    --footer: #303030;
-    --icons: #797979;
 }
 
 img {

@@ -52,49 +52,24 @@ export default {
 
 <template>
     <header id="site_header">
-        <div class="nav">
-            <div class="logo">
-                <img src="../assets/img/dc-logo.png" alt="">
-            </div>
-            <div class="links">
-                <a href="#" v-for="link in links">{{ link.name }}</a>
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <img src="../assets/img/dc-logo.png" alt="">
+                </div>
+                <div class="links">
+                    <a href="#" v-for="link in links">{{ link.name }}</a>
+                </div>
             </div>
         </div>
         <div class="jumbotron">
-            <h1>--> Content goes here &lt-- </h1>
+            <div class="container">
+                <h1>--> Content goes here &lt-- </h1>
+            </div>
         </div>
     </header>
 </template>
 
 <style lang="scss">
-#site_header {
 
-    .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding: 1rem;
-
-        .links {
-
-            a {
-                padding: .5rem;
-                text-transform: uppercase;
-                text-decoration: none;
-                color: black;
-            }
-        }
-    }
-
-    .jumbotron {
-        background-color: black;
-        color: white;
-
-        h1 {
-            padding: 2rem;
-            text-align: center;
-        }
-    }
-
-}
 </style>

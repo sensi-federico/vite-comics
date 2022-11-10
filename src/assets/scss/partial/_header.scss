@@ -1,0 +1,29 @@
+#site_header {
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 0;
+
+        .links {
+
+            a {
+                padding: .5rem;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    .jumbotron {
+        background-color: black;
+        color: white;
+
+        h1 {
+            padding: 2rem 0;
+        }
+    }
+
+}
