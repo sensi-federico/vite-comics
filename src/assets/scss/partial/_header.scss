@@ -34,17 +34,7 @@
     .jumbotron {
         background-image: url('/img/jumbotron.jpg');
         background-size: cover;
-        height: 80vh;
-        color: white;
-        display: flex;
-
-        h1 {
-            text-align: center;
-            align-self: center;
-            margin: 0;
-            background-color: $dark;
-            padding: 5rem;
-        }
+        height: 40vh;
     }
 
 }

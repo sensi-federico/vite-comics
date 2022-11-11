@@ -63,9 +63,6 @@ export default {
             </div>
         </div>
         <div class="jumbotron">
-            <div class="my-container">
-                <h1>--> Content goes here &lt--</h1>
-            </div>
         </div>
     </header>
 </template>
